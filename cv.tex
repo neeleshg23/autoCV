@@ -24,7 +24,7 @@
 %	PACKAGES
 %----------------------------------------------------------------------------------------
 \usepackage{url}
-\usepackage{parskip} 	
+\usepackage{parskip}
 
 %other packages for formatting
 \RequirePackage{color}
@@ -39,7 +39,7 @@
 \usepackage{enumitem}
 
 % centered version of 'X' col. type
-\newcolumntype{C}{>{\centering\arraybackslash}X} 
+\newcolumntype{C}{>{\centering\arraybackslash}X}
 
 %to prevent spillover of tabular into next pages
 \usepackage{supertabular}
@@ -48,11 +48,11 @@
 \setlength{\fullcollw}{0.47\textwidth}
 
 %custom \section
-\usepackage{titlesec}				
+\usepackage{titlesec}
 \usepackage{multicol}
 \usepackage{multirow}
 
-%CV Sections inspired by: 
+%CV Sections inspired by:
 %http://stefano.italians.nl/archives/26
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{10pt}{10pt}
@@ -79,7 +79,7 @@
 \begin{document}
 
 % non-numbered pages
-\pagestyle{empty} 
+\pagestyle{empty}
 
 %----------------------------------------------------------------------------------------
 %	TITLE
@@ -93,9 +93,9 @@
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
 \Huge{Neel Gupta} \\[5.5pt]
-\href{https://linkedin.com/in/neelesh-gupta23}{\raisebox{-0.05\height}\faLinkedin\ neelesh-gupta23} \ $|$ \ 
-\href{https://https://neeleshg23.github.io/}{\raisebox{-0.05\height}\faGithub \ neeleshg23.github.io} \ $|$ \ 
-\href{mailto:neeleshg@usc.edu}{\raisebox{-0.05\height}\faEnvelope \ neeleshg@usc.edu} \ $|$ \ 
+\href{https://linkedin.com/in/neelesh-gupta23}{\raisebox{-0.05\height}\faLinkedin\ neelesh-gupta23} \ $|$ \
+\href{https://https://neeleshg23.github.io/}{\raisebox{-0.05\height}\faGithub \ neeleshg23.github.io} \ $|$ \
+\href{mailto:neeleshg@usc.edu}{\raisebox{-0.05\height}\faEnvelope \ neeleshg@usc.edu} \ $|$ \
 \href{tel:+18325918299}{\raisebox{-0.05\height}\faMobile \ +1 (832) 591 8299} \\
 \end{tabularx}
 
@@ -105,9 +105,9 @@
 %----------------------------------------------------------------------------------------
 
 \section{Education}
-{\bf University of Southern California} \hfill {\bf Los Angeles, CA} 
+{\bf University of Southern California} \hfill {\bf Los Angeles, CA}
 \\ {\em B.S. Computer Science, Minor: Mathematics, GPA: 3.63/4} \hfill {\em August 2021 - May 2025 }
-\\ Programming Coursework: Data Structures, Algorithms \& Theory of Computing, Computer Systems 
+\\ Programming Coursework: Data Structures, Algorithms \& Theory of Computing, Computer Systems
 \\ Math Coursework: Applied Probability, Seminar in Problem Solving, Math of Physics \& Engineering II
 \\ Honors and Societies: Viterbi Dean's List, Scope, ACM, IEEE, Alpha Lambda Delta
 
@@ -117,29 +117,26 @@
 %----------------------------------------------------------------------------------------
 
 %Experience
+
+
 \section{Work Experience}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
 \textbf{Undergraduate Research Assistant} & \hfill \textbf{Marina del Rey, CA}
-\\{\em USC Information Sciences Institute - STEEL: Security Research Lab} & \hfill {\em May 2022 - Present } 
+\\{\em USC Information Sciences Institute - STEEL: Security Research Lab} & \hfill {\em May 2022 - Present }
 \\
 \multicolumn{2}{@{}X@{}}{
 \begin{minipage}[t]{\linewidth}
     \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
-        \item[--] Sampled, analyzed, and validated dataset of approximately 24.6K scraped YouTube video advertisements and hyperlinks for their appropriateness to young children, finding that 26.9\% out of our sample include at least one ad that is inappropriate for young children with an aggregate accuracy of 97\%.
-        \item[--] Wrote bash scripts to automate F1 score calculation for sets of anomalous network traffic data. Helped fine tune parameters for anomaly detection algorithm based on principal component analysis of multidimensional time-series data in NumPy, thus increasing the number of true positives by \~{}15\% when the signal-to-noise ratio of a network anomaly is 5 or higher.
-        \item[--] Made Python scripts that recognize and count natural entities in over 500K emails from Enron corpus to find intersecting cases of sentences, phrases, and words that could appear in spam or phishing emails. 
-        \item[--] Annotate approximately 2.5K emails for spam and phishing content. 
-        \item[--] Develop code to evaluate team's inter-annotator agreement score across emails to accurately train an NLP model to detect spam.
+        \item[--] Analyzed 24.6K scraped YouTube ads for young children and found 26.9\% include inappropriate content with 97\% accuracy.
+        \item[--]Automated F1 score calculation for anomaly detection in network traffic data using NumPy, increasing true positives by approximately 15\% for signal-to-noise ratios of 5 or higher.
+        \item[--] Identified natural entities in 500K Enron emails using Python scripts to detect intersecting spam and phishing content.
+        \item[--] Achieved high inter-annotator agreement scores for spam and phishing content detection by training an NLP model with 2.5K annotated emails.
     \end{itemize}
-\end{minipage}
-}
+\end{minipage}}
 \end{tabularx}
-
 %Projects
-
 \section{Projects}
-
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
 \textbf{Handwritten Digit Recognizer} & \hfill \href{https://neeleshg23.github.io/tfjs.html}{Link to Site} \\
@@ -156,7 +153,7 @@
 \begin{minipage}[t]{\linewidth}
 \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
         \item[--] Developed a machine learning facial recognition program using Python, Keras, and TensorFlow.
-        \item[--] Implemented a Siamese model architecture to compare image similarity, allowing for highly accurate facial recognition with approximately 97\% accuracy. 
+        \item[--] Implemented a Siamese model architecture to compare image similarity, allowing for highly accurate facial recognition with approximately 97\% accuracy.
         \item[--] Utilized Kivy to create user-friendly interactable front-end to conduct real-time facial recognition.
      \end{itemize}
  \end{minipage}
@@ -182,7 +179,7 @@
 \section{Skills}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
 Programming/Scripting Languages: &  \normalsize{C++, Python, Java, JavaScript, \LaTeX, MATLAB}\\
-Tools and Frameworks: &  \normalsize{PyTorch, TensorFlow, Keras, HTML, CSS, Git, Docker, AWS }\\  
+Tools and Frameworks: &  \normalsize{PyTorch, TensorFlow, Keras, HTML, CSS, Git, Docker, AWS }\\
 \end{tabularx}
 
 % Interests/ Keywords/ Summary
