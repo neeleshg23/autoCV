@@ -5,6 +5,10 @@
 *.gz
 *.xml
 *.bcf
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
 rmtex.sh
 .DS_Store
 
