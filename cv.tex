@@ -58,7 +58,7 @@
 \titlespacing{\section}{0pt}{10pt}{10pt}
 
 %for publications
-\usepackage[sorting=ynt, maxbibnames=10]{biblatex}
+\usepackage[sorting=ydnt, maxbibnames=10]{biblatex}
 
 %Setup hyperref package, and colours for links
 \usepackage[unicode, draft=false]{hyperref}
@@ -107,9 +107,9 @@
 \section{Education}
 {\bf University of Southern California} \hfill {\bf Los Angeles, CA}
 \\ {\em B.S. Computer Science, Minor: Mathematics, GPA: 3.6/4} \hfill {\em August 2021 - May 2025 }
-\\ Programming Coursework: Data Structures, Algorithms \& Theory of Computing, Computer Systems
-\\ Math Coursework: Applied Probability, Seminar in Problem Solving, Math of Physics \& Engineering II
-\\ Honors and Societies: Viterbi Dean's List, Scope, ACM, IEEE, Alpha Lambda Delta
+\\ Programming Coursework: Parallel \& Distributed Computing, Algorithms, Distributed Systems
+\\ Math Coursework: Applied Probability, Real Analysis, Math of Physics \& Engineering II
+\\ Honors and Societies: Viterbi Dean's List, ACM, IEEE, Alpha Lambda Delta, Scope
 
 
 %----------------------------------------------------------------------------------------
@@ -129,7 +129,7 @@
     \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
         \item[--] Boost cache coverage by over 30\% via optimized, cutting-edge ML-based prefetching techniques (Reinforcement Learning, Product Quantization, Knowledge Distillation), in order to minimize CPU stalling.
         \item[--] Craft sophisticated ML-based prefetching techniques utilizing PyTorch, cuDNN, scikit-learn, and C, seamlessly incorporating them into a microarchitecture simulation framework, ChampSim.
-        \item[--] First-authored paper titled ``PaCKD: Pattern-Clustered Knowledge Distillation for Compressing Memory Access Prediction Models,'' exploring tradeoffs between compression, memory access prediction, and latency, to appear in \textit{2023 IEEE High Performance Extreme Computing (HPEC)} conference.
+        \item[--] Conducted research to bridge the gap between theory and practice, demonstrating how ML-based prefetching techniques can be pragmatically implemented for real-world systems.
     \end{itemize}
 \end{minipage}
 }
@@ -183,6 +183,10 @@ Cloud Technologies: & \normalsize{Docker, Kubernetes, Google Cloud Platform (GCP
 % Interests/ Keywords/ Summary
 % \section{Summary}
 % This CV is automatically generated and deployed using the \href{https://github.com/jitinnair1/autoCV}{autoCV} template along with GitHub Actions such that a new version of the CV is compiled, published and ready for use when the cv.tex file is updated. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
+
+\section{Publications}
+\nocite{*}
+\printbibliography[heading=none]
 
 \vfill
 \center{\footnotesize Last updated: \today}
