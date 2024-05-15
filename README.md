@@ -1,9 +1,5 @@
 # autoCV
 
-Ugh push isn't building kms
-
-permissions error: again again.
-
 A clean CV template in LaTeX along with a GitHub action that complies the `*.tex` file and publishes a new PDF version when new changes are pushed to the repo
 
 ## Template Design
@@ -24,24 +20,9 @@ Optionally, while forking this repo, you can get a direct link to the generated 
 
 Now, once your site is published, your CV will be accessible at: https://username.github.io/autoCV/cv.pdf
 
-## This template on Overleaf
-
-<a href="https://www.overleaf.com/latex/templates/autocv/scfvqfpxncwb"><img alt="Overleaf" src="https://img.shields.io/badge/Overleaf-47A141.svg?style=for-the-badge&logo=Overleaf&logoColor=white"/></a>
-
-Also, if you have a premium subscription to Overleaf, you can use Overleaf's GitHub integration to push changes to your GitHub repo directly from Overleaf.
-
 ## Detailed Instructions..
 
 [.. are available here](https://github.com/jitinnair1/autoCV/wiki/How-to-use-autoCV:-Detailed-Instructions)
 
 ## Issues
 Please start a new discussion or issue if you encounter problems
-
-PS: If you liked the template, do star :star: it! Thanks!
-
-
-### Also, check out:
-
-- [gradfolio](https://github.com/jitinnair1/gradfolio) - a minimal, quick-setup template for a personal website/portfolio
-- [Tail](https://github.com/jitinnair1/tail) - a minimal, quick-setup template for a blog
-
